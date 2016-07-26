@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UIActivityImageView_Example' do
+  pod 'UIActivityImageView', :path => '../'
+
+  target 'UIActivityImageView_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
