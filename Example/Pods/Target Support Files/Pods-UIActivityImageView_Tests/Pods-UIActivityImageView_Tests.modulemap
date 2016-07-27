@@ -1,0 +1,6 @@
+framework module Pods_UIActivityImageView_Tests {
+  umbrella header "Pods-UIActivityImageView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

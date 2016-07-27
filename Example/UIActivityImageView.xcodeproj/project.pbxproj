@@ -8,20 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		07B5C26D851260AC9849B169 /* Pods_UIActivityImageView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9878315BDA3A1705122AA61 /* Pods_UIActivityImageView_Tests.framework */; };
+		394F8D641D47EFEE000105C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 394F8D621D47EFEE000105C6 /* ViewController.m */; };
+		394F8D691D47F412000105C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394F8D681D47F412000105C6 /* Main.storyboard */; };
+		394F8D6B1D47F715000105C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394F8D6A1D47F715000105C6 /* LaunchScreen.storyboard */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* UIActivityImageViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* UIActivityImageViewAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* UIActivityImageViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* UIActivityImageViewViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A580DFA2576DCA40666B33D5 /* Pods_UIActivityImageView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4B0D4B8930B2269F9A40CB2 /* Pods_UIActivityImageView_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		394F8D621D47EFEE000105C6 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		394F8D631D47EFEE000105C6 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		394F8D681D47F412000105C6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		394F8D6A1D47F715000105C6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45A4266AD0A9DA31F6F339EC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* UIActivityImageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIActivityImageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,8 +52,6 @@
 		6003F59B195388D20070C39A /* UIActivityImageView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIActivityImageView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* UIActivityImageViewAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIActivityImageViewAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* UIActivityImageViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIActivityImageViewAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* UIActivityImageViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIActivityImageViewViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* UIActivityImageViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIActivityImageViewViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* UIActivityImageView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIActivityImageView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,7 +64,6 @@
 		73486F2DB08F1419D9E24A0C /* Pods-UIActivityImageView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityImageView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIActivityImageView_Tests/Pods-UIActivityImageView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		7EC101C6D284018E367981EE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		813E20245097E979EAE5D92D /* Pods-UIActivityImageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityImageView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UIActivityImageView_Example/Pods-UIActivityImageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A9878315BDA3A1705122AA61 /* Pods_UIActivityImageView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIActivityImageView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B761C4906E305966ED9B0206 /* Pods-UIActivityImageView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UIActivityImageView_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-UIActivityImageView_Example/Pods-UIActivityImageView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C4B0D4B8930B2269F9A40CB2 /* Pods_UIActivityImageView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UIActivityImageView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -141,11 +143,12 @@
 		6003F593195388D20070C39A /* Example for UIActivityImageView */ = {
 			isa = PBXGroup;
 			children = (
+				394F8D6A1D47F715000105C6 /* LaunchScreen.storyboard */,
+				394F8D681D47F412000105C6 /* Main.storyboard */,
+				394F8D621D47EFEE000105C6 /* ViewController.m */,
+				394F8D631D47EFEE000105C6 /* ViewController.h */,
 				6003F59C195388D20070C39A /* UIActivityImageViewAppDelegate.h */,
 				6003F59D195388D20070C39A /* UIActivityImageViewAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* UIActivityImageViewViewController.h */,
-				6003F5A6195388D20070C39A /* UIActivityImageViewViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -276,7 +279,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				394F8D691D47F412000105C6 /* Main.storyboard in Resources */,
+				394F8D6B1D47F715000105C6 /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -390,8 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394F8D641D47EFEE000105C6 /* ViewController.m in Sources */,
 				6003F59E195388D20070C39A /* UIActivityImageViewAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* UIActivityImageViewViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.2):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.2)
+  - FBSnapshotTestCase/Core (2.1.2)
+  - FBSnapshotTestCase/SwiftSupport (2.1.2):
+    - FBSnapshotTestCase/Core
+  - UIActivityImageView (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - UIActivityImageView (from `../`)
+
+EXTERNAL SOURCES:
+  UIActivityImageView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 918c55861356ee83aee7843d759f55a18ff6982b
+  UIActivityImageView: 9d9ce9608d9e730746300fe6c90f54adc902f565
+
+PODFILE CHECKSUM: 60c0ba6bd225e94c0db82dabfea9d0b3633c1e7e
+
+COCOAPODS: 1.0.1

@@ -1,27 +1,83 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="whP-gf-Uak">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="aZ3-9e-sio">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="wQg-tq-qST">
+        <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="whP-gf-Uak" customClass="UIActivityImageViewViewController" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
-                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QK5-bF-aQ7" customClass="UIActivityImageView">
+                                <rect key="frame" x="185" y="150" width="230" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="BYa-d1-FB3"/>
+                                    <constraint firstAttribute="height" constant="300" id="yMe-X1-4cH"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uf0-Rr-bAb">
+                                <rect key="frame" x="246" y="78" width="108" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="41" id="Ybs-OP-pFZ"/>
+                                    <constraint firstAttribute="width" constant="108" id="n3h-CM-eWk"/>
+                                </constraints>
+                                <state key="normal" title="Load image"/>
+                                <connections>
+                                    <action selector="loadImage:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Mqh-Yw-JeN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="QK5-bF-aQ7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GtX-9d-9pK"/>
+                            <constraint firstItem="uf0-Rr-bAb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="14" id="O0O-JZ-Evu"/>
+                            <constraint firstItem="uf0-Rr-bAb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="POi-VJ-GSF"/>
+                            <constraint firstItem="QK5-bF-aQ7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="c4d-Rb-EZ9"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="KbD-Cl-GcT">
+                        <barButtonItem key="rightBarButtonItem" systemItem="refresh" id="0Bg-SH-mn6">
+                            <connections>
+                                <action selector="refresh:" destination="BYZ-38-t0r" id="yGy-HG-Sh8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="imageView" destination="QK5-bF-aQ7" id="3fL-gD-gHI"/>
+                        <outlet property="loadImageButton" destination="uf0-Rr-bAb" id="mA2-wQ-vFj"/>
+                        <outlet property="refreshButton" destination="0Bg-SH-mn6" id="Ufn-Tx-sge"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="305" y="433"/>
+            <point key="canvasLocation" x="1241" y="998"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vaU-NS-aKe">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aZ3-9e-sio" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="tnd-Ya-3Rj">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="oD3-LG-5aS"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cfH-PN-GvW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="508" y="998"/>
         </scene>
     </scenes>
 </document>

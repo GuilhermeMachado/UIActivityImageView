@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'UIActivityImageView'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UIActivityImageView.'
+  s.summary          = 'A simple UIImageView with UIActivityIndicatorView'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,20 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  "A simple UIImageView with UIActivityIndicatorView indicated to asynchronous requests"
                        DESC
 
-  s.homepage         = 'https://github.com/<GITHUB_USERNAME>/UIActivityImageView'
+  s.homepage         = 'https://github.com/GuilhermeMachado/UIActivityImageView'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'GuilhermeMachado' => 'guilherme.menon.machado@gmail.com' }
-  s.source           = { :git => 'https://github.com/<GITHUB_USERNAME>/UIActivityImageView.git', :tag => s.version.to_s }
+  s.author           = { 'Guilherme Machado' => 'guilherme.menon.machado@gmail.com' }
+  s.source           = { :git => 'https://github.com/GuilhermeMachado/UIActivityImageView.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '7.0'
 
   s.source_files = 'UIActivityImageView/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'UIActivityImageView' => ['UIActivityImageView/Assets/*.png']
   # }
